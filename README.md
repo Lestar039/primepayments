@@ -1,7 +1,7 @@
-git clone
+#### How to start
 
-python -m venv venv
+1. git clone
 
-pip install -r requirements.txt
+2. docker build -t payment .
 
-python main.py
+3. docker run -d -p 8000:8000 payment
